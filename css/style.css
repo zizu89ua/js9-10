@@ -1,0 +1,94 @@
+
+h1 {
+    color: #4E443C;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2, h2 a {
+    color: #F14E32;
+}
+
+h3, h3 a {
+  color: #0388A6;
+}
+
+a {
+  color: #0388A6;
+}
+
+pre {
+  border:1px solid #000;
+  overflow-x:auto;
+  background: #222;
+  color: #fff;
+  text-shadow: none;
+}
+
+.wrapper {
+    max-width: 620px;
+    padding: 0 20px 40px 20px;
+    margin: auto;
+}
+.cb-enable, 
+.cb-disable, 
+.cb-enable span, 
+.cb-disable span {
+ background: url(../img/switch.gif) repeat-x; 
+ display: block; float: left; 
+}
+.cb-enable span, 
+.cb-disable span { line-height: 30px; 
+  display: block;
+   background-repeat: no-repeat;
+   font-weight: bold; 
+ }
+.cb-enable span { 
+  background-position: left -90px;
+ padding: 0 10px; 
+}
+.cb-disable span { 
+  background-position: right -180px;
+  padding: 0 10px; 
+}
+.cb-disable.selected {
+ background-position: 0 -30px; }
+.cb-disable.selected span { 
+  background-position: right -210px; 
+  color: #fff; 
+}
+.cb-enable.selected { 
+  background-position: 0 -60px; 
+}
+.cb-enable.selected span { 
+  background-position: left -150px; 
+  color: #fff; 
+}
+.switch label { 
+  cursor: pointer; 
+}
+.switch input { 
+  display: none;
+   }
+.menu{
+  clear: both;
+  color: #6da9cd;
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  background: #b9e2d5;
+  border-radius: 15px;
+  padding: 20px;;;
+}
+.menu__li{
+  display: inline-block;
+  margin-left: 30px;
+  position: relative;;
+}
+.menu__sub{
+    position: absolute;
+    top: 40px;
+    display: none;;
+}
+

@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans:300,400,600&Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/jcarousel.data-attributes.css" rel="stylesheet" />
+    <link href="css/nice-style.css" rel="stylesheet">
+    <link href="css/nice-select.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.js"></script> 
+    <script src="js/jquery.jcarousel.min.js" ></script>
+    <script src="js/jcarousel.data-attributes.js" ></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/script.js"></script>
+	<title>HomeworkJS9-10</title>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Carousels using data-* attributes</h1>
+
+    <p>This example shows how to setup simple carousel using data-* attributes for initialization and configuration.</p>
+
+    <div class="jcarousel-wrapper">
+        <div data-jcarousel="true" data-wrap="circular" class="jcarousel">
+            <ul>
+                <li><img src="img/img1.jpg" width="600" height="400" alt=""></li>
+                <li><img src="img/img2.jpg" width="600" height="400" alt=""></li>
+                <li><img src="img/img3.jpg" width="600" height="400" alt=""></li>
+                <li><img src="img/img4.jpg" width="600" height="400" alt=""></li>
+                <li><img src="img/img5.jpg" width="600" height="400" alt=""></li>
+                <li><img src="img/img6.jpg" width="600" height="400" alt=""></li>
+            </ul>
+    </div>
+    <a data-jcarousel-control="true" data-target="-=1" href="#" class="jcarousel-control-prev">&lsaquo;</a>
+    <a data-jcarousel-control="true" data-target="+=1" href="#" class="jcarousel-control-next">&rsaquo;</a>
+    </div>
+    <div class="container">
+        <h2>My Secelt</h2>
+        <div class="box">
+            <select class="ignore">
+                <option value="1">Kiev</option>
+                <option value="2" selected="">lviv</option>
+                <option value="3">Sumy</option>
+            </select>
+     </div>
+    <div class="box">
+      <select>
+            <option value="1">HTML</option>
+            <option value="2">CSS</option>
+            <option value="3" disabled>JS</option>
+            <option value="4">JQUERY</option>
+      </select>
+    </div>
+  </div>
+    <p class="field switch">
+    <input type="radio" id="radio1" name="field"  checked />
+    <input type="radio" id="radio2" name="field" />
+    <label for="radio1" class="cb-enable selected"><span>Enable</span></label>
+    <label for="radio2" class="cb-disable"><span>Disable</span></label>
+    </p>
+    <p class="field switch">
+    <label class="cb-enable"><span>On</span></label>
+    <label class="cb-disable selected"><span>Off</span></label>
+    <input type="checkbox" id="checkbox" class="checkbox" name="field2" />
+    </p>
+
+    <div class="menu">
+        <ul class="menu__header">
+            <li class="menu__li">Фрукты
+                <ul class="menu__sub">
+                    <li>Апельсины</li>
+                    <li>Бананы</li>
+                    <li>Мандарины</li>
+                </ul>
+            </li>
+            <li class="menu__li">Овощи
+                <ul class="menu__sub">
+                    <li>Картошка</li>
+                    <li>Морква</li>
+                    <li>Лук</li>
+                </ul>
+            </li>
+            <li class="menu__li">Продукты
+                 <ul class="menu__sub">
+                    <li>Молоко</li>
+                    <li>Вода</li>
+                    <li>Конфеты</li>
+                </ul>
+            </li>
+            <li class="menu__li">Что-то
+                 <ul class="menu__sub">
+                    <li>Поезд</li>
+                    <li>Машина</li>
+                    <li>Санки</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+      
+</body>
+</html>
