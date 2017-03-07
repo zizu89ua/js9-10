@@ -14,9 +14,17 @@ $(function() {
         $(this).addClass('selected');
         $('.checkbox',parent).attr('checked', false);
     });
+
+
+
     $('.menu__li').hover(function(){
     	$(this).children('.menu__sub').animate({
     		opacity: 'show'
-    	}, 1000);
+    	}, 300);
+    	
+    },function(){
+    	$(this).children('.menu__sub').animate({
+    		opacity: 'hide'
+    	}, 10);
     })
 });

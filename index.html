@@ -19,10 +19,68 @@
 </head>
 <body>
   <div class="wrapper">
-    <h1>Carousels using data-* attributes</h1>
-
-    <p>This example shows how to setup simple carousel using data-* attributes for initialization and configuration.</p>
-
+    <div class="menu">
+        <ul class="menu__header">
+            <li class="menu__li">Фрукты
+                <ul class="menu__sub">
+                    <li class="menu__fruts"><a href="#" class="menu__link">Апельсины</a>
+                        <ul class="menu__secon-sub">
+                            <li><a href="#">Турция</a></li>
+                            <li><a href="#">Испания</a></li>
+                            <li><a href="#">Греция</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__fruts"><a href="#" class="menu__link">Бананы</a>
+                     <ul class="menu__secon-sub">
+                            <li><a href="#">Бразилия</a></li>
+                            <li><a href="#">Африка</a></li>
+                            <li><a href="#">Бангкок</a></li>
+                        </ul></li>
+                    <li class="menu__fruts"><a href="#" class="menu__link">Мандарины</a></li>
+                </ul>
+            </li>
+            <li class="menu__li">Овощи
+                <ul class="menu__sub">
+                    <li class="menu__veg"><a href="#" class="menu__link">Картошка</a>
+                         <ul class="menu__secon-sub">
+                            <li><a href="#">Польша</a></li>
+                            <li><a href="#">Германия</a></li>
+                            <li><a href="#">Нидерланды</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__veg"><a href="#" class="menu__link">Морква</a></li>
+                    <li class="menu__veg"><a href="#" class="menu__link">Лук</a></li>
+                </ul>
+            </li>
+            <li class="menu__li">Продукты
+                 <ul class="menu__sub">
+                    <li class="menu__prod"><a href="#" class="menu__link">Молоко</a>
+                         <ul class="menu__secon-sub">
+                            <li><a href="#">Украина</a></li>
+                            <li><a href="#">Белорусь</a></li>
+                            <li><a href="#">Польша</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__prod"><a href="#" class="menu__link">Вода</a></li>
+                    <li class="menu__prod"><a href="#" class="menu__link">Конфеты</a>
+                         <ul class="menu__secon-sub">
+                            <li><a href="#">Рошен</a></li>
+                            <li><a href="#">Конти</a></li>
+                            <li><a href="#">Доминик</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu__li">Что-то
+                 <ul class="menu__sub">
+                    <li class="menu__other"><a href="#" class="menu__link">Поезд</a></li>
+                    <li class="menu__other"><a href="#" class="menu__link">Машина</a></li>
+                    <li class="menu__other"><a href="#" class="menu__link">Санки</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <h1>My Carousels</h1>
     <div class="jcarousel-wrapper">
         <div data-jcarousel="true" data-wrap="circular" class="jcarousel">
             <ul>
@@ -67,38 +125,7 @@
     <input type="checkbox" id="checkbox" class="checkbox" name="field2" />
     </p>
 
-    <div class="menu">
-        <ul class="menu__header">
-            <li class="menu__li">Фрукты
-                <ul class="menu__sub">
-                    <li>Апельсины</li>
-                    <li>Бананы</li>
-                    <li>Мандарины</li>
-                </ul>
-            </li>
-            <li class="menu__li">Овощи
-                <ul class="menu__sub">
-                    <li>Картошка</li>
-                    <li>Морква</li>
-                    <li>Лук</li>
-                </ul>
-            </li>
-            <li class="menu__li">Продукты
-                 <ul class="menu__sub">
-                    <li>Молоко</li>
-                    <li>Вода</li>
-                    <li>Конфеты</li>
-                </ul>
-            </li>
-            <li class="menu__li">Что-то
-                 <ul class="menu__sub">
-                    <li>Поезд</li>
-                    <li>Машина</li>
-                    <li>Санки</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+    
 </div>
       
 </body>
