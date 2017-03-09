@@ -19,11 +19,13 @@ $(function() {
 
     $('.menu__li').hover(function(){
     	$(this).children('.menu__sub').animate({
-    		opacity: 'show'
+    		opacity: 'show',
     	}, 300);
-    	
-    },function(){
-    	$(this).children('.menu__sub').animate({
+    	$(this).stop();
+    },
+
+    function(){
+    	$(this).children('.menu__sub').stop().animate({
     		opacity: 'hide'
     	}, 10);
     })
